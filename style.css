@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+.navbar{
+    max-width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.navbar ul{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+}
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.navbar ul li a:hover{
+    padding: 25px 10px;
+    background-color: white;
+    color: black;
+}
+
+.navicon i{
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+}
+#home{
+    display: none;
+}
+
+.nav-bars{
+    display: none;
+}
+
+.section-main{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.section-heading{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.section-heading span{
+    font-style: italic;
+    font-weight: 100;
+}
+.section-para{
+    font-size: 15px;
+    
+}
+
+.section-cards{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section-cards img{
+    width: 150px;
+    height: 150px;
+}
+
+.hero-section{
+    margin-top: 100px;
+    max-width: 100%;
+    background-color: black;
+}
+
+.hero-section-content{
+    max-width: 800px;
+    margin: auto;
+}
+
+.hero-section-rowone{
+    color: white;
+    text-align: center;
+}
+.hero-section-rowtwo{
+    background-color: whitesmoke;
+
+}
+
+.hero-section-rowtwo p {
+    padding: 10px 5px;
+    border-top: 1px solid lightgrey;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-section-rowtwo span{
+    background-color: #F44336;
+    padding:0px 10px;
+    color: white;
+    border: none;
+}
+
+.hero-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-caards{
+    background-color: white;
+    flex-basis: 32%;
+    border-radius:0px ;
+}
+
+.hero-caards a{
+    background-color: black;
+    border-radius: 0px;
+    border: none;
+}
+.hero-caards a:hover{
+    background-color: #CCCCCC;
+    color: black;
+}
+
+.main-footer{
+    max-width: 800px;
+    margin: 80px auto;
+    
+    
+}
+.footer-row1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-row2{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.footer-row2-col2 input{
+    margin: 5px 0px;
+    padding: 6px;
+}
+#message input{
+    width: 100%;
+    padding: 6px;
+}
+#message{
+    text-align: end;
+}
+#message button{
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    
+}
